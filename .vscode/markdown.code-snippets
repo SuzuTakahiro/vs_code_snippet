@@ -1,0 +1,124 @@
+{
+    "Markdown Link": {
+      "prefix": "mdlink",
+      "body": [
+        "[${1:リンクテキスト}](${2:URL})"
+      ],
+      "description": "Markdownのリンクを挿入します"
+    },
+    "Markdown Image": {
+      "prefix": "mdimage",
+      "body": [
+        "![${1:代替テキスト}](${2:画像URL})"
+      ],
+      "description": "Markdownの画像を挿入します"
+    },
+    "Markdown Table Header 3": {
+        "prefix": "mdtableheader 3",
+        "body": [
+          "| ${1:列1} | ${2:列2} | ${3:列3} |",
+          "| --- | --- | --- |"
+        ],
+        "description": "Markdownのテーブルのヘッダを挿入します"
+    },
+    "Markdown Table Row 3": {
+        "prefix": "mdtablerow 3",
+        "body": [
+          "| ${1:値1} | ${2:値2} | ${3:値3} |"
+        ],
+        "description": "Markdownのテーブルの行を挿入します"
+    },
+    "Markdown Table Header 4": {
+        "prefix": "mdtableheader 4",
+        "body": [
+          "| ${1:列1} | ${2:列2} | ${3:列3} | ${4:列4} |",
+          "| --- | --- | --- | --- |"
+        ],
+        "description": "Markdownのテーブルのヘッダを挿入します"
+    },
+    "Markdown Table Row 4": {
+        "prefix": "mdtablerow 4",
+        "body": [
+          "| ${1:値1} | ${2:値2} | ${3:値3} | ${4:値4} |"
+        ],
+        "description": "Markdownのテーブルの行を挿入します"
+    },
+    "Markdown Table Header 5": {
+        "prefix": "mdtableheader 5",
+        "body": [
+          "| ${1:列1} | ${2:列2} | ${3:列3} | ${4:列4} | ${5:列5} |",
+          "| --- | --- | --- | --- | --- |"
+        ],
+        "description": "Markdownのテーブルのヘッダを挿入します"
+    },
+    "Markdown Table Row 5": {
+        "prefix": "mdtablerow 5",
+        "body": [
+          "| ${1:値1} | ${2:値2} | ${3:値3} | ${4:値4} | ${5:値5} |"
+        ],
+        "description": "Markdownのテーブルの行を挿入します"
+    },
+    "code js": {
+        "prefix": "code js",
+        "body": [
+          "```javascript",
+          "${1:コード}",
+          "```"
+        ],
+        "description": "JavaScriptのコードブロックを挿入します"
+    },
+    "code html": {
+        "prefix": "code html",
+        "body": [
+          "```html",
+          "${1:コード}",
+          "```"
+        ],
+        "description": "HTMLのコードブロックを挿入します"
+    },
+    "code css": {
+        "prefix": "code css",
+        "body": [
+          "```css",
+          "${1:コード}",
+          "```"
+        ],
+        "description": "CSSのコードブロックを挿入します"
+    },
+    "code csharp": {
+        "prefix": "code csharp",
+        "body": [
+          "```csharp",
+          "${1:コード}",
+          "```"
+        ],
+        "description": "C#のコードブロックを挿入します"
+    },
+    "code typescript": {
+        "prefix": "code typescript",
+        "body": [
+          "```typescript",
+          "${1:コード}",
+          "```"
+        ],
+        "description": "TypeScriptのコードブロックを挿入します"
+    },
+    "code python": {
+        "prefix": "code python",
+        "body": [
+          "```python",
+          "${1:コード}",
+          "```"
+        ],
+        "description": "Pythonのコードブロックを挿入します"
+    },
+    "code bash": {
+        "prefix": "code bash",
+        "body": [
+          "```bash",
+          "${1:コード}",
+          "```"
+        ],
+        "description": "Bashのコードブロックを挿入します"
+    },
+  }
